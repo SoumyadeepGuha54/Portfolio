@@ -214,15 +214,17 @@ html {
   margin: 20px;
   padding: 20px 25px;
   background-color: #f3efe6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 100px auto;
   border-radius: 24px;
+}
+
+.educationCardImage {
+    height: 100px;
 }
 
 .educationCardImage img {
   width: 100px;
-  margin-right: 20px;
   border-radius: 16px;
 }
 
