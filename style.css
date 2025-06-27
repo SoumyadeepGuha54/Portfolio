@@ -220,7 +220,7 @@ html {
 }
 
 .educationCardImage {
-    height: 100px;
+  height: 100px;
 }
 
 .educationCardImage img {
@@ -264,11 +264,15 @@ html {
 
 .contactCardIcon {
   height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
 }
 
 .contactCardIcon img {
-  width: 50px;
-  border-radius: 16px;
+  width: 30px;
 }
 
 .contactCardText {
