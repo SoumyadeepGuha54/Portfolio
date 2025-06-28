@@ -187,6 +187,7 @@ html {
 
 .projectsCardImage img {
   width: 400px;
+  border: 3.5px solid #feb705;
   border-radius: 16px;
 }
 
