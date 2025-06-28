@@ -215,4 +215,42 @@
     gap: 15px;
     border-radius: 24px;
   }
+
+  .contactCardSection {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .contactCard {
+    padding: 7.5px;
+    background-color: #f3efe6;
+    display: grid;
+    grid-template-columns: 50px auto;
+    border-radius: 24px;
+  }
+
+  .contactCardIcon {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+
+  .contactCardIcon img {
+    width: 20px;
+  }
+
+  .contactCardText p {
+    margin: 0px;
+  }
+
+  .contactCardText .contactType {
+    margin: 0px;
+    font-weight: 600;
+  }
 }
