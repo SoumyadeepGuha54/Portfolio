@@ -266,3 +266,9 @@
     font-weight: 600;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .educationCardText {
+    padding: 0px 100px 0px 0px;
+  }
+}
