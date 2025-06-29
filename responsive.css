@@ -24,6 +24,30 @@
   .projectsCardText {
     padding: 20px;
   }
+
+  .projectsCardLinks1 a {
+    width: 40vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #feb705;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinks2 a {
+    width: 40vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #e20a2a;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
 }
 
 @media screen and (max-width: 1120px) {
@@ -105,6 +129,30 @@
     padding: 30px 0px 0px 0px;
     text-align: center;
     border-radius: 24px;
+  }
+
+  .projectsCardLinks1 a {
+    width: 35vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #feb705;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinks2 a {
+    width: 35vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #e20a2a;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
   }
 }
 
@@ -298,6 +346,30 @@
 }
 
 @media screen and (max-width: 450px) {
+  .projectsCardLinks1 a {
+    width: 30vw;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #feb705;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinks2 a {
+    width: 30vw;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #e20a2a;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
   .projectsCardLinksText1 {
     margin-right: 10px;
     color: #000000;
@@ -308,6 +380,32 @@
     margin-right: 10px;
     color: #ffffff;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .projectsCardLinks1 a {
+    width: 32.5vw;
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #feb705;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinks2 a {
+    width: 32.5vw;
+    margin: 0px 5px;
+    padding: 10px;
+    background-color: #e20a2a;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
   }
 }
 
