@@ -11,13 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 24px;
   }
 
   .projectsCardImage img {
-    width: 400px;
-    margin-right: 30px;
+    width: 90vw;
+    margin: 0px;
     border-radius: 16px;
   }
 
@@ -57,12 +57,6 @@
     align-items: center;
     flex-direction: column;
     border-radius: 24px;
-  }
-
-  .projectsCardImage img {
-    width: 90vw;
-    margin: 0px;
-    border-radius: 16px;
   }
 
   .projectsCardText {
@@ -214,6 +208,42 @@
     padding-right: 40px;
   }
 
+  .projectsCardLinks1 a {
+    width: 30vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #feb705;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinks2 a {
+    width: 30vw;
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: #e20a2a;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .projectsCardLinksText1 {
+    margin-right: 15px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .projectsCardLinksText2 {
+    margin-right: 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+
   .educationCard {
     margin: 20px;
     padding: 20px;
@@ -264,6 +294,20 @@
   .contactCardText .contactType {
     margin: 0px;
     font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projectsCardLinksText1 {
+    margin-right: 10px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .projectsCardLinksText2 {
+    margin-right: 10px;
+    color: #ffffff;
+    text-align: center;
   }
 }
 

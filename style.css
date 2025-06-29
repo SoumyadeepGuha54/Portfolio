@@ -197,8 +197,61 @@ html {
 }
 
 .projectsCard .projectsName {
-  margin: 20px 0px 0px 0px;
+  margin-top: 20px;
   font-weight: 600;
+  text-align: center;
+}
+
+.projectsCardLinks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsCardLinks1 a {
+  width: 150px;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: #feb705;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 10px;
+  border-radius: 16px;
+}
+
+.projectsCardLinks2 a {
+  width: 150px;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: #e20a2a;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 10px;
+  border-radius: 16px;
+}
+
+.projectsCardLinksIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsCardLinksIcon img {
+  width: 20px;
+}
+
+.projectsCardLinksText1 {
+  margin-right: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.projectsCardLinksText2 {
+  margin-right: 20px;
+  color: #ffffff;
   text-align: center;
 }
 
