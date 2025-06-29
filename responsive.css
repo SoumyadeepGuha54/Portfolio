@@ -383,6 +383,12 @@
   }
 }
 
+@media screen and (max-width: 390px) {
+  .socialsIcon img {
+    width: 36.5px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .projectsCardLinks1 a {
     width: 32.5vw;

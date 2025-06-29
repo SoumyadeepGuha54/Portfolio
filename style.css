@@ -52,7 +52,7 @@ html {
 }
 
 .hero {
-  padding: 75px;
+  padding: 60px;
   background-color: #f3efe6;
   text-align: center;
 }
@@ -75,6 +75,36 @@ html {
 
 .description {
   margin: 20px 10px 0px 10px;
+}
+
+.socialsText {
+  margin-top: 40px;
+  color: #de0a26;
+  font-weight: 600;
+}
+
+.socialsSection {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialsSection a {
+  margin: 0px 10px;
+}
+
+.socialsIcon {
+  padding: 7.5px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.socialsIcon img {
+  width: 40px;
 }
 
 .aboutText {
