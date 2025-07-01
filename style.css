@@ -44,6 +44,18 @@ html {
   text-decoration: none;
   border: 1.75px solid #ffffff;
   border-radius: 25px;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+
+.navbar nav ul a:hover {
+  padding: 7.5px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border: 1.75px solid #ffffff;
+  border-radius: 25px;
+  transform: scale(1.05);
 }
 
 .navbar nav ul a li {
@@ -101,10 +113,23 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+
+.socialsIcon:hover {
+  padding: 7.5px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  transform: scale(1.1);
 }
 
 .socialsIcon img {
-  width: 40px;
+  width: 35px;
+  border-radius: 9px;
 }
 
 .aboutText {
@@ -215,6 +240,19 @@ html {
   border-radius: 24px;
 }
 
+.projectsCard:hover {
+  padding: 30px;
+  background-color: #f3efe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 24px;
+  -webkit-animation: shadow-drop-2-center 0.4s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 .projectsCardImage img {
   width: 400px;
   border: 3.5px solid #feb705;
@@ -249,6 +287,21 @@ html {
   grid-template-columns: 20px auto;
   gap: 10px;
   border-radius: 16px;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+
+.projectsCardLinks1 a:hover {
+  width: 150px;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: #feb705;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 10px;
+  border-radius: 16px;
+  transform: scale(1.05);
 }
 
 .projectsCardLinks2 a {
@@ -261,6 +314,21 @@ html {
   grid-template-columns: 20px auto;
   gap: 10px;
   border-radius: 16px;
+  transform: scale(1);
+  transition: transform 0.1s ease;
+}
+
+.projectsCardLinks2 a:hover {
+  width: 150px;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: #de0a26;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 10px;
+  border-radius: 16px;
+  transform: scale(1.05);
 }
 
 .projectsCardLinksIcon {
@@ -380,4 +448,33 @@ footer {
   background-color: #de0a26;
   color: #ffffff;
   text-align: center;
+}
+
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+    transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+    transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
 }
