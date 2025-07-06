@@ -46,16 +46,6 @@ html {
   border-radius: 25px;
 }
 
-.navbar nav ul a:hover {
-  padding: 7.5px;
-  width: 150px;
-  text-align: center;
-  text-decoration: none;
-  border: 1.75px solid #ffffff;
-  border-radius: 25px;
-  transform: scale(1.05);
-}
-
 .navbar nav ul a li {
   color: #ffffff;
   list-style: none;
@@ -111,16 +101,6 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-}
-
-.socialsIcon:hover {
-  padding: 7.5px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
-  transform: scale(1.1);
 }
 
 .socialsIcon img {
@@ -285,19 +265,6 @@ html {
   border-radius: 16px;
 }
 
-.projectsCardLinks1 a:hover {
-  width: 150px;
-  margin: 0px 20px;
-  padding: 10px;
-  background-color: #feb705;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: 20px auto;
-  gap: 10px;
-  border-radius: 16px;
-  transform: scale(1.05);
-}
-
 .projectsCardLinks2 a {
   width: 150px;
   margin: 0px 20px;
@@ -308,19 +275,6 @@ html {
   grid-template-columns: 20px auto;
   gap: 10px;
   border-radius: 16px;
-}
-
-.projectsCardLinks2 a:hover {
-  width: 150px;
-  margin: 0px 20px;
-  padding: 10px;
-  background-color: #de0a26;
-  text-decoration: none;
-  display: grid;
-  grid-template-columns: 20px auto;
-  gap: 10px;
-  border-radius: 16px;
-  transform: scale(1.05);
 }
 
 .projectsCardLinksIcon {
