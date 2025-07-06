@@ -44,8 +44,6 @@ html {
   text-decoration: none;
   border: 1.75px solid #ffffff;
   border-radius: 25px;
-  transform: scale(1);
-  transition: transform 0.1s ease;
 }
 
 .navbar nav ul a:hover {
@@ -113,8 +111,6 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  transform: scale(1);
-  transition: transform 0.1s ease;
 }
 
 .socialsIcon:hover {
@@ -287,8 +283,6 @@ html {
   grid-template-columns: 20px auto;
   gap: 10px;
   border-radius: 16px;
-  transform: scale(1);
-  transition: transform 0.1s ease;
 }
 
 .projectsCardLinks1 a:hover {
@@ -314,8 +308,6 @@ html {
   grid-template-columns: 20px auto;
   gap: 10px;
   border-radius: 16px;
-  transform: scale(1);
-  transition: transform 0.1s ease;
 }
 
 .projectsCardLinks2 a:hover {
